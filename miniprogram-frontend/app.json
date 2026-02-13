@@ -1,10 +1,38 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/auth/login/login",
+    "pages/auth/register/register",
+    "pages/home/home",
+    "pages/recommend/recommend",
+    "pages/recipe/list/list",
+    "pages/recipe/detail/detail",
+    "pages/health/health",
+    "pages/record/record",
+    "pages/profile/profile"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/recipe/list/list",
+        "text": "食谱"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
   "renderer": "skyline",
